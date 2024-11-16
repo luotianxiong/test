@@ -8,6 +8,7 @@ int main()
     std::vector<int>V4=twoAdd(V1,V2);
     V4.insert(V4.begin(),V1.front());
     std::cout<<V1[0]<<std::endl;
+    std::cout<<"你好 Git!"<<std::endl;
     return 0;
 }
 
